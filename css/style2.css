@@ -1,0 +1,112 @@
+html,
+body {
+	height: 100%;
+	overflow-x: hidden;
+	font-family: 'Source Sans Pro';
+}
+
+body {
+	margin: 0;
+	padding: 0; 
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center; 
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0;
+	width: 450px;
+	min-height: 350px;
+	background-color: #ff75c8;
+	border-radius: 15px;
+}
+
+.conditions {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 15px 0 15px 0;
+	font-size: 19px;
+	font-weight: 600; 
+	color: #700158;
+	
+}
+
+.tamagotchi_buttons {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+}
+
+.tamagotchi-btn {
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 10px 0 10px; 
+}
+
+#eat {
+	
+	background-color: #ffe500;
+	border: 2px solid #ffe500;
+	color: #00b3ff;
+}
+
+#eat:hover {
+	background-color: #f0d800;
+	border: 2px solid #f0d800;	
+}
+
+#wash {
+	background-color: #00b3ff;
+	border: 2px solid #00b3ff;
+	color: #fff;
+}
+
+#wash:hover {
+	background-color: #00a4eb;
+	border: 2px solid #00a4eb;
+}
+
+#run {
+	background-color: #fff;
+	border: 2px solid #fff;
+	color: #00b3ff;
+}
+
+#run:hover {
+	background-color: #ebebeb;
+	border: 2px solid #ebebeb;
+}
+
+.level {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+}
+
+.level-btn {
+	width: 80px;
+    height: 35px;
+    background: #fff;
+    border-radius: 5px;
+    border: 2px solid #700158;
+    margin: 10px 35px 20px 35px;
+    font-size: 15px;
+    font-weight: 600; 
+    color: #700158;
+} 
